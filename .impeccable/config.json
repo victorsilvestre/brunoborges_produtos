@@ -1,0 +1,101 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "arial",
+        "createdAt": "2026-10-20T14:47:48.332Z",
+        "reason": "Escolha provisória para wireframe em tons de cinza; usuário determinou que a imagem divulgada prevalece sobre DESIGN.md. A família final será definida na implementação."
+      },
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-10-20T14:48:21.307Z",
+        "reason": "Fonte neutra provisória em wireframe de média fidelidade; não é a escolha tipográfica da página final."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/wireframe.html"
+        ],
+        "createdAt": "2026-10-20T14:48:25.747Z",
+        "reason": "Falso positivo nas seções full-width: o conteúdo está dentro de .wrap com margens laterais de 40px no desktop e 18px no celular, confirmado nas prévias. As seções externas mantêm fundo e separadores até a borda."
+      },
+      {
+        "rule": "icon-tile-stack",
+        "value": "*",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/wireframe.html"
+        ],
+        "createdAt": "2026-10-20T14:54:41.959Z",
+        "reason": "Seis benefícios com ícones reproduzem a organização da seção equivalente da Cartilha, referência que o usuário pediu expressamente para seguir nesta revisão."
+      },
+      {
+        "rule": "design-system-font",
+        "value": "bodoni moda",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/pagina-vendas.css"
+        ],
+        "createdAt": "2026-10-20T15:13:12.658Z",
+        "reason": "Família de alto contraste escolhida para implementar a imagem de divulgação, referência principal explicitamente definida pelo usuário; sistema da página será documentado no acabamento."
+      },
+      {
+        "rule": "design-system-font",
+        "value": "dm sans",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/pagina-vendas.css"
+        ],
+        "createdAt": "2026-10-20T15:13:12.720Z",
+        "reason": "Família de texto e controles escolhida para acompanhar o lettering do produto; sistema da página será documentado no acabamento."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/pagina-vendas.html"
+        ],
+        "createdAt": "2026-10-20T15:14:34.326Z",
+        "reason": "Marfim é parte da arte de divulgação do Scalp 40P que o usuário definiu explicitamente como referência principal."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/pagina-vendas.html"
+        ],
+        "createdAt": "2026-10-20T15:14:34.378Z",
+        "reason": "Seções full-bleed contêm .wrap com margens laterais e espaçamento vertical via --space; o detector não considera o wrapper interno. Revisão visual desktop/celular confirma os recuos."
+      },
+      {
+        "rule": "design-system-font",
+        "value": "bodoni moda",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/pagina-vendas.html"
+        ],
+        "createdAt": "2026-10-20T15:14:34.425Z",
+        "reason": "Fonte escolhida para o lettering de alto contraste da imagem de divulgação; sistema específico da página será registrado no acabamento."
+      },
+      {
+        "rule": "design-system-font",
+        "value": "dm sans",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/pagina-vendas.html"
+        ],
+        "createdAt": "2026-10-20T15:14:34.472Z",
+        "reason": "Fonte aberta local para textos e controles do layout; sistema específico da página será registrado no acabamento."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "low-ticket/scalp40P-kitDeExecução/pagina-vendas.css"
+        ],
+        "createdAt": "2026-10-20T15:22:11.626Z",
+        "reason": "Falso positivo confirmado: as duas border-left de 2px pertencem a pequenos símbolos de conferência de 10/11x6px, rotacionados em -45 graus, nos pseudo-elementos das listas de público e recapitulação. Não são bordas de cartões."
+      }
+    ]
+  }
+}
